@@ -1,0 +1,225 @@
+{
+  "id": "1c414531-2367-4433-8d9a-2fe62224800e",
+  "version": "2.0",
+  "name": "test-front-end",
+  "url": "http://127.0.0.1:8080/",
+  "tests": [{
+    "id": "c26655dd-7a10-4578-9de4-cf89d3da6982",
+    "name": "inserir",
+    "commands": [{
+      "id": "b6f0c927-a950-4a35-b3a2-bf052e77afec",
+      "comment": "",
+      "command": "open",
+      "target": "/listar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b84fec45-aab4-4b5e-86f0-36986f8f62a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef726a0e-0e62-427a-ab14-7d35ca375fca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastro",
+      "targets": [
+        ["linkText=Cadastro", "linkText"],
+        ["css=span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cadastrar')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f857f447-b36f-4bbc-a688-490e45078a83",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f26d9728-3344-43bc-a032-b13b9db0cb13",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Richardson Silva2"
+    }, {
+      "id": "3c899d0c-fe50-4976-a3bd-7c1c5dc8fbb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Rua Doutor Pedro Moscoso"
+    }, {
+      "id": "44209866-8378-4e28-8c6c-05027429fcb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dd93860-ac21-4f1a-8f31-c393c6b5993a",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Cadastro Efetuado com sucesso",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a1303f8-0d65-4ef0-b241-5705c973a23f",
+    "name": "inserir 2",
+    "commands": [{
+      "id": "d11baf1d-4fcb-4a89-b42b-12a3b0183ef9",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93cff68d-e56c-41fb-b40f-ab9641122619",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adbf47cf-1321-4e41-9a1d-390efc25b80a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastro",
+      "targets": [
+        ["linkText=Cadastro", "linkText"],
+        ["css=span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cadastrar')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2b0faf-9c44-49ad-b5e9-ca5cbecf5771",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a8d287-58d2-4852-be3d-3d2a9245aa56",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Richardson Silva"
+    }, {
+      "id": "ea12a8f2-7495-4f5b-b6f0-c8fc51de0863",
+      "comment": "",
+      "command": "type",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Rua Doutor Pedro Moscoso"
+    }, {
+      "id": "e4ea772d-eba6-49fb-8416-0ad280092a29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df73e0a-8d73-4ba4-8222-4812b4b8b0a7",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4befdd20-128b-4432-844e-1a9fae183695",
+    "name": "excluir",
+    "commands": [{
+      "id": "4429434a-4cde-476a-94c6-024a46f9fcef",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32bff27d-2247-4f37-81a4-d882bed1ca5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a04f2844-1309-4130-b6c9-50db332f0d4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .mat-warn > .mdc-button__label",
+      "targets": [
+        ["css=tr:nth-child(25) .mat-warn > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[25]/td[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c438cec6-6f79-4af1-9acf-56cee0497c4d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c26655dd-7a10-4578-9de4-cf89d3da6982"]
+  }],
+  "urls": ["http://127.0.0.1:8080/"],
+  "plugins": []
+}
